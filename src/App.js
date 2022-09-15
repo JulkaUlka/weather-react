@@ -1,6 +1,6 @@
 import "./App.css";
-import axios from "axios";
-import React, { useState } from "react";
+// import axios from "axios";
+// import React, { useState } from "react";
 
 export default function App() {
   let weatherData = {
