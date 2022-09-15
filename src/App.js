@@ -54,7 +54,11 @@ export default function App() {
         {" "}
         <p>
           Open source code by{" "}
-          <a href="https://github.com/JulkaUlka/weather-react" target="_blank">
+          <a
+            href="https://github.com/JulkaUlka/weather-react"
+            target="_blank"
+            rel="noreferrer"
+          >
             {" "}
             Yuliia Hlushko{" "}
           </a>
