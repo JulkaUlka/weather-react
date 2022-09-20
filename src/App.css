@@ -1,44 +1,4 @@
-h1 {
-  font-family: "Knewave", cursive;
-}
-.current-temperature {
-  font-family: "Knewave", cursive;
-  font-size: 100px;
-}
-.measures {
-  font-size: 40px;
-  position: relative;
-  top: -34px;
-}
-
-div {
-  font-family: "Pacifico", cursive;
-}
-
-.day-detail {
-  list-style-type: none;
-}
-.Weather {
-  text-align: center;
-  border: 1px solid #000000;
-  border-radius: 10px;
-  width: 70%;
-  padding: 20px;
-  margin: 100px auto;
-  background-color: var(--bs-body-bg);
-  opacity: 0.7;
-}
-.search {
-  border: 1px solid #000000;
-  border-radius: 10px;
-  margin-left: none;
-}
-.currentLocation {
-  padding: 0;
-  border: none;
-  background: none;
-  margin-right: none;
-}
-.signature {
+.App footer {
+  font-size: 11px;
   text-align: center;
 }

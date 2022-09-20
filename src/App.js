@@ -1,68 +1,32 @@
 import "./App.css";
-// import axios from "axios";
-// import React, { useState } from "react";
+import React from "react";
+import Weather from "./Weather.js";
 
 export default function App() {
-  let weatherData = {
-    city: "Kyiv",
-    temperature: 19,
-    day: "Tuesday 1",
-  };
   return (
-    <div>
-      <div className="Weather">
-        <div className="row">
-          <div className="col-4">
-            <h1> {weatherData.city} </h1>
+    <div className="App">
+      <div className="container">
+        <Weather defaultCity="Kyiv" />
 
-            <div> {weatherData.day}</div>
-          </div>
-
-          <div className="col-4">
-            <span className="current-temperature">
-              {weatherData.temperature}
-            </span>
-            <a href="/" className="current-temperature measures ">
-              {" "}
-              C{" "}
-            </a>
-
-            <a href="/" className="current-temperature measures ">
-              {" "}
-              F{" "}
-            </a>
-          </div>
-          <div className="col-3">
-            <form>
-              <input
-                type="search"
-                name="text"
-                className="search"
-                placeholder="Search city"
-                autoComplete="off"
-              />
-            </form>
-          </div>
-          <div className="col-1">
-            <button className="currentLocation">
-              <span>📍</span>
-            </button>
-          </div>
-        </div>
-      </div>
-      <div className="signature">
-        {" "}
-        <p>
-          Open source code by{" "}
+        <footer className="signature">
+          This project was coded by{" "}
+          <a
+            href="https://silly-squirrel-c3d30e.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Yuliia Hlushko
+          </a>{" "}
+          and is{" "}
           <a
             href="https://github.com/JulkaUlka/weather-react"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
-            {" "}
-            Yuliia Hlushko{" "}
-          </a>
-        </p>
+            open-sourced on GitHub
+          </a>{" "}
+          and hosted on Netlify
+        </footer>
       </div>
     </div>
   );
