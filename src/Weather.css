@@ -16,11 +16,15 @@ h1 {
   font-family: "Knewave", cursive;
   font-size: 100px;
   margin-right: 10px;
+  position: relative;
+  top: 40px;
+  right: -20px;
 }
 .Weather .unit {
   font-size: 40px;
   position: relative;
-  top: -34px;
+  top: -23px;
+  right: -14px;
 }
 .Weather canvas {
   margin: 1px auto;
