@@ -17,15 +17,14 @@ export default function App() {
           >
             Yuliia Hlushko
           </a>{" "}
-          and is{" "}
+          and is open-sourced on{" "}
           <a
             href="https://github.com/JulkaUlka/weather-react"
             target="_blank"
             rel="noopener noreferrer"
           >
-            open-sourced on GitHub
-          </a>{" "}
-          and hosted on Netlify
+            GitHub
+          </a>
         </footer>
       </div>
     </div>

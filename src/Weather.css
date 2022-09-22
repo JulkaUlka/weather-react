@@ -1,12 +1,12 @@
 .Weather {
   text-align: center;
-  border: 1px solid #000000;
   border-radius: 10px;
   width: 60%;
   padding: 20px;
   margin: 100px auto;
-  background-color: var(--bs-body-bg);
-  opacity: 0.7;
+  background-color: #ffffff10;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
 }
 
 h1 {
@@ -55,4 +55,25 @@ div {
   border: none;
   background: none;
   margin-right: none;
+}
+.search-button {
+  background-color: #6595c3 !important;
+  width: 100px;
+}
+@media screen and (max-width: 991px) {
+  .Weather {
+    width: 90%;
+  }
+  .Weather .temperature {
+    font-size: 60px;
+    position: relative;
+    top: 5px;
+    right: -20px;
+  }
+  .Weather .unit {
+    font-size: 20px;
+  }
+  .search-button {
+    width: 80px;
+  }
 }
